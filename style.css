@@ -23,7 +23,15 @@ body{
   text-transform: uppercase;
 }
 
+.header {
+  font-family: 'TT Lakes';
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  
 
+}
 .content {
   max-width: 320px;
   width: 100%;
@@ -62,14 +70,14 @@ body{
 }
 
 .swiper-pagination{
-margin-bottom: 150%
-
+  position: relative;
+  margin-top: 20px;
 }
 
 
 
 /* Разрешение от 320 до 768*/
-@media (min-width: 321px) {
+@media (min-width: 400px) {
   .header{
     margin: 16px;
   }
